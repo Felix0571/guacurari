@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://bx04r3p511ab0"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_1803b"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_1803b")
+
+[node name="Jugar" type="Button" parent="."]
+offset_left = 351.0
+offset_top = 239.0
+offset_right = 601.0
+offset_bottom = 278.0
+text = "Jugar"
+metadata/_edit_group_ = true
+
+[node name="Salir" type="Button" parent="."]
+offset_left = 351.0
+offset_top = 289.0
+offset_right = 601.0
+offset_bottom = 324.0
+text = "Salir
+"
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="."]
+custom_minimum_size = Vector2(5, 0)
+offset_left = 435.0
+offset_top = 102.0
+offset_right = 526.0
+offset_bottom = 127.0
+text = "MINECRAFT
+"
+max_lines_visible = 4
+structured_text_bidi_override_options = [null, null, null, null, null, null, null, null, null, null, null, null]
+
+[connection signal="pressed" from="Jugar" to="." method="_on_jugar_pressed"]
+[connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]
