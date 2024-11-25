@@ -1,13 +1,27 @@
-[gd_scene load_steps=3 format=3 uid="uid://cnph02dtwbue8"]
+[gd_scene load_steps=4 format=3 uid="uid://cnph02dtwbue8"]
 
 [ext_resource type="Texture2D" uid="uid://7ewe5nb6wwpm" path="res://assets/trump.jpg" id="1_ejgq6"]
 [ext_resource type="Script" path="res://sprite_2d.gd" id="2_xgso7"]
+[ext_resource type="Script" path="res://sc.gd" id="3_3awlo"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(58, 100)
+position = Vector2(-888, -38)
 scale = Vector2(0.59375, 0.788889)
 texture = ExtResource("1_ejgq6")
 script = ExtResource("2_xgso7")
 metadata/g = null
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("3_3awlo")
+
+[node name="Label2" type="Label" parent="CanvasLayer"]
+auto_translate_mode = 1
+offset_left = 537.0
+offset_top = 47.0
+offset_right = 616.0
+offset_bottom = 102.0
+theme_override_font_sizes/font_size = 40
+text = "5:00"
+horizontal_alignment = 1

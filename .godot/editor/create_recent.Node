@@ -1,1 +1,11 @@
+CanvasLayer
+CenterContainer
+BoxContainer
+VBoxContainer
+Label
+Panel
+MenuBar
+TextEdit
+GridContainer
+Control
 Node2D
