@@ -10,12 +10,13 @@ config_version=5
 
 [application]
 
-config/name="guacurari-td"
-run/main_scene="res://node_2d.tscn"
+config/name="Silicon Valley 2024"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/size/viewport_width=959
+window/size/viewport_height=473
+window/size/mode=1
