@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnph02dtwbue8"]
+
+[ext_resource type="Texture2D" uid="uid://7ewe5nb6wwpm" path="res://assets/trump.jpg" id="1_ejgq6"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="2_xgso7"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(58, 100)
+scale = Vector2(0.59375, 0.788889)
+texture = ExtResource("1_ejgq6")
+script = ExtResource("2_xgso7")
+metadata/g = null
